@@ -41,7 +41,7 @@ public class ServletTo extends HttpServlet {
     @Override
     public void destroy() {
         super.destroy();
-        //当服务器关闭之后销毁
+        //当服务器关闭之后销毁 对servlet容器进行销毁
         System.out.println("=========销毁======== ");
     }
 }
