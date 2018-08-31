@@ -12,5 +12,9 @@
 </head>
 <body>
      <h1>Hello World!!!!!!!</h1>
+    <form method="post" action="Hello">
+        <input name="username"/>
+        <input type="submit"/>
+    </form>
 </body>
 </html>
